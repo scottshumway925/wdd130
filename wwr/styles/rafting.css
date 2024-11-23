@@ -1,0 +1,74 @@
+:root {
+    --main_color: #75b9be;
+    --secondary_color: #a8ccc9;
+    --tertiary_color: #504b3a;
+    --quaternary_color: #1a1b41;
+    --main_font: sans-serif;
+    --header_font: serif;
+}
+
+.hero {
+    position: relative;  /* Make sure the .hero container is relative for positioning child elements */
+    width: 100%;
+    height: auto;  /* Adjust the height based on your design requirements */
+}
+
+.hero h1 {
+    color: var(--secondary_color);
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    z-index: 100;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article {
+    position: absolute;  /* Absolutely position the article on top of the image */
+    top: 50%;  /* Adjust this value to place the article where you want */
+    left: 50%;  /* Center horizontally */
+    transform: translate(-50%, -50%);  /* Center the article both horizontally and vertically */
+    color: var(--quaternary_color);
+    background-color: var(--main_color);
+    padding: 20px;
+    opacity: .8;
+    z-index: 10;  /* Ensure the article stays on top of the image */
+}
+
+.profile img {
+    display: block;
+    width: 20%;
+    height: auto;
+    float: right;
+    opacity: 1;
+}
+
+h1 {
+    font-family: var(--header_font);
+    font-weight: bold;
+    color: var(--quaternary_color);
+}
+
+h2 {
+    font-family: var(--header_font);
+    font-weight: bold;
+    color: var(--tertiary_color);
+}
+
+p {
+    font-family: var(--main_font);
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+.adventure img{
+    display: block;
+    padding: 1rem;
+}
