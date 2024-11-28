@@ -7,6 +7,34 @@
     --header_font: "Fredoka";
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    background-color: var(--secondary_color);
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+.top img {
+    align-self: center;
+}
+
 .hero {
     position: relative;  /* Make sure the .hero container is relative for positioning child elements */
     width: 100%;
@@ -71,4 +99,9 @@ p {
 .adventure img{
     display: block;
     padding: 1rem;
+}
+
+.history {
+    display: grid;
+    grid-template: 2 / 2 / 2 / 2;
 }
