@@ -96,18 +96,34 @@ p {
     text-decoration: none;
 }
 
-.adventure img{
-    display: block;
-    padding: 1rem;
-}
-
 .history {
     display: grid;
-    grid-template-columns: 1f 1f 1f;
-    grid-auto-rows: 1f 3f;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    align-items: center;
+    background-color: var(--secondary_color);
 }
 
 .history h2{
-    columns: 1,4;
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.adventure section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
     align-items: center;
+    background-color: var(--tertiary_color);
+}
+
+.adventure h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.adventure img{
+    width: 19%;
+    height: auto;
+    border-radius: 5px;
 }
