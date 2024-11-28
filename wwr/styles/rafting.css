@@ -103,5 +103,11 @@ p {
 
 .history {
     display: grid;
-    grid-template: 2 / 2 / 2 / 2;
+    grid-template-columns: 1f 1f 1f;
+    grid-auto-rows: 1f 3f;
+}
+
+.history h2{
+    columns: 1,4;
+    align-items: center;
 }
