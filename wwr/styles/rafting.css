@@ -162,7 +162,7 @@ footer p {
     padding-bottom: 10px;
 }
 
-.info h2{
+.info h1{
     text-align: center;
     color: var(--quaternary_color);
     grid-column: 1 / -1;
