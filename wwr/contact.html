@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafting Co. | Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="author" content="Scott Shumway">
+    <meta name="description" content="This is the contacts page for the rafting website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="top" src="images/logo.jpg" alt="Logo">
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="info">
+            <h2>Rafting Co. Information</h2>
+            <div>Address: Idaho 83549 (Googles Address for snake river canyon)</div>
+            <div>Phone Number: 1(208)XXX-XXXX</div>
+            <div>Email: raftingco@gmail.com</div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35169.203477309!2d-116.50647465328291!3d45.582315581406704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a132edd14a01f3%3A0xf60a092ead913afd!2sSnake%20River%20Canyon!5e0!3m2!1sen!2sus!4v1733443985132!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section class="employees">
+            <h2>Employees</h2>
+            <figure>
+                <img src="images/desmond.jpg" alt="Image 1">
+                <figcaption>Greg Alvar - River Surveyer</figcaption>
+            </figure>
+            <figure>
+                <img src="images/guides.jpg" alt="Image 2">
+                <figcaption>Our river Guide Team</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Greg.jpg" alt="Image 3">
+                <figcaption>Desmond Drakes - Raft Captian</figcaption>
+            </figure>
+        </section>
+        <section class="inputform">
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-item column2">
+                        <label class="normal" for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item column2">
+                        <label class="normal" for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div class="rad">
+                        <label>What is the purpose for your Message?</label><br>
+                        <input type="radio" id="general" name="purpose" value="General Inquery">
+                        <label>General Inquery</label><br>
+                        <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                        <label>Reservation Question</label><br>
+                        <input type="radio" id="website" name="purpose" value="Website Recommendation">
+                        <label>Website Recommendation</label><br>
+                    </div>
+                    <div class="form-item">
+                        <label class="normal" for="feedback">Please write your message here:</label>
+                        <textarea name="feedback" id="feedback" rows="4" placeholder="The purpose for me writing you is..."></textarea>
+                    </div>
+                    <div class="form-item column1">
+                        <label class="normal" for="newsletter">Please subscribe me to the monthly newsletter?</label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                    </div>
+                    <button type="submit">Submit Poll</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>©️2024 | WhiteWater Rafting Co. | Scott Shumway</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="Facebook">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.webp" alt="Instagram">
+            </a>
+            <a href="https://x.com">
+                <img src="images/x.webp" alt="X">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
