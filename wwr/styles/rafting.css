@@ -269,3 +269,51 @@ button:hover {
     display: inline;
     padding-left: 50%;
 }
+
+.divgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.divgrid form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: var(--secondary_color);
+    display: grid;
+    height: 100%;
+}
+
+.call {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: var(--secondary_color);
+    display: grid;
+    place-items: center;
+    height: 95%;
+}
+
+.call nav a {
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: var(--tertiary_color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.employees p {
+    color: var(--secondary_color);
+    font-family: var(--main_font);
+    font-size: x-large;
+    text-align: center;
+}
