@@ -335,8 +335,8 @@ button:hover {
 }
 
 .action img, .action p {
-    width: auto;
-    height: 90%;
+    width: 90%;
+    height: auto;
     color: var(--secondary_color);
     font-size: x-large;
 }
