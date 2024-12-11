@@ -99,6 +99,7 @@ p {
 footer {
     display: flex;
     width: 100%;
+    padding-top: 2rem;
 }
 
 footer p {
@@ -317,3 +318,76 @@ button:hover {
     font-size: x-large;
     text-align: center;
 }
+
+.action {
+    background-color: var(--tertiary_color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr;
+    text-align: center;
+}
+
+.action h2 {
+    color: var(--secondary_color);
+    text-align: center;
+    grid-column: 1/-1;
+    font-size: xx-large;
+}
+
+.action img, .action p {
+    width: auto;
+    height: 90%;
+    color: var(--secondary_color);
+    font-size: x-large;
+}
+
+.about_link {
+    text-align: center;
+    grid-column: -3/-1;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.about_link section{
+    text-align: center;
+}
+
+.action div {
+    text-align: center;
+    padding-left: 45%;
+}
+
+.action nav a {
+    padding: 10px 20px; 
+    font-family: var(--main_font);
+    background-color: var(--secondary_color);
+    color: var(--quaternary_color);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.trip_table {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.trip_table > *{
+    border: 1px solid black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trips {
+    text-align: center;
+    font-family: var(--main_font);
+}
+
+.trips p {
+    font-size: larger;
+}
+
